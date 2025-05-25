@@ -1,0 +1,148 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:4193728243903287042",
+      "lastPropertyId": "3:5818609564523181390",
+      "name": "LocationEntity",
+      "properties": [
+        {
+          "id": "1:3568440965361708846",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7192144969235962860",
+          "name": "lat",
+          "type": 8
+        },
+        {
+          "id": "3:5818609564523181390",
+          "name": "lng",
+          "type": 8
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2318271056688616494",
+      "lastPropertyId": "7:8295091285297764835",
+      "name": "UserEntity",
+      "properties": [
+        {
+          "id": "1:2603953679261170805",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8765094351180883368",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "3:16829177113712023",
+          "name": "password",
+          "type": 9
+        },
+        {
+          "id": "4:6767054336232959750",
+          "name": "token",
+          "type": 9
+        },
+        {
+          "id": "5:2690599783730965730",
+          "name": "message",
+          "type": 9
+        },
+        {
+          "id": "6:4319421481161209450",
+          "name": "userId",
+          "type": 9
+        },
+        {
+          "id": "7:8295091285297764835",
+          "name": "totalTrip",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:8689741051487968831",
+      "lastPropertyId": "10:8244879665251994651",
+      "name": "VehicleEntity",
+      "properties": [
+        {
+          "id": "1:2965949371080145387",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2843328831411072522",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:933483399566953213",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "4:3109181259507983098",
+          "name": "status",
+          "type": 9
+        },
+        {
+          "id": "5:323714660043034785",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "6:3999376274577275248",
+          "name": "battery",
+          "type": 6
+        },
+        {
+          "id": "7:4009858372093312908",
+          "name": "costPerMinute",
+          "type": 6
+        },
+        {
+          "id": "8:6721479189558152707",
+          "name": "createAt",
+          "type": 9
+        },
+        {
+          "id": "9:5435219277496069848",
+          "name": "vehicleId",
+          "type": 9
+        },
+        {
+          "id": "10:8244879665251994651",
+          "name": "locationId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "1:3972578444171701262",
+          "relationTarget": "LocationEntity"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:8689741051487968831",
+  "lastIndexId": "1:3972578444171701262",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
